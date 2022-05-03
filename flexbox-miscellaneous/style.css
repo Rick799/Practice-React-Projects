@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 1px;
+  background-color: slateblue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  background-color: aqua;
+  margin: 0px;
+  border-radius: 5px;
+  width: 35vw;
+}
+
+.one {
+  background-color: salmon;
+}
+
+.two {
+  background-color: sandybrown;
+}
+
+.three {
+  background-color: bisque;
+}
